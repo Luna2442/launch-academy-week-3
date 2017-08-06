@@ -1,1 +1,29 @@
 /* Your styling here */
+
+#app {
+  background-color: pink;
+  color: white;
+  border-width: 10px;
+  border-color: purple;
+  padding: 10px;
+  text-align: center;
+}
+
+#exit {
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+}
+
+label {
+  color: yellow;
+  background-color: purple;
+}
+
+#claim-prize {
+  border-width: 10px;
+  border-color: purple;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: purple;
+}
