@@ -1,4 +1,7 @@
 import React from 'react';
+import Wrapper from './Wrapper';
+
+
 
 const Box = props => {
   let boxClass = `box ${props.boxClass}`
@@ -22,8 +25,8 @@ const Box = props => {
     <div className={boxClass}>
       <h1>{props.header}</h1>
       {paragraph}
-      {list}
       {img}
+      {list}
     </div>
   )
 }

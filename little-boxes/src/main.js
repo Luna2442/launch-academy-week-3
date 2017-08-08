@@ -12,13 +12,11 @@ import Box from './components/Box'
 
 let wrapperParagraph = 'Lorem ipsum dolor sit amet...'
 
-let spaceList =
-  [<li>Asteroids</li>,
-  <li>Comets</li>,
-  <li>Moon</li>,
-  <li>Planets</li>,
-  <li>Stars</li>,
-  <li>Sun</li>]
+let spaceList =["Asteroids", "Comets", "Moon", "Planets", "Stars", "Sun"]
+
+let list = spaceList.map((item) =>
+  <li>{item}</li>
+)
 
 let date = (new Date).toString()
 let random = parseInt(Math.random() * 100)
@@ -50,7 +48,7 @@ ReactDOM.render(
     <Box
       boxClass="list"
       header="Here is a List"
-      list={spaceList}
+      list={list}
     />
   </div>,
   document.getElementById('app')
