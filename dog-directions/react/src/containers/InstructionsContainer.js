@@ -68,7 +68,7 @@ class InstructionsContainer
             key={direction.id}
             id={direction.id}
             setSelectedStep={this.changeState}
-            className = {className}
+            className ={className}
           />
         )
       })
