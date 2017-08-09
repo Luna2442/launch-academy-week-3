@@ -1,0 +1,36 @@
+/* YOUR STYLING HERE */
+body {
+  background: #E5F3F4;
+}
+
+h1 {
+  text-align: center;
+}
+
+i {
+  float: left;
+  margin-right: 50px;
+}
+
+p {
+  margin-bottom: 25px;
+  font-family: serif;
+  font-size: 30px;
+}
+
+.question {
+  color: purple;
+}
+
+.faq {
+  border-top: 25px;
+}
+
+.border-line {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border-bottom: solid;
+  border-height: 0px;
+  border-width: 92%;
+  border-color: black;
+}
